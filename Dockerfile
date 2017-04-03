@@ -3,4 +3,4 @@ MAINTAINER "The Impact Bot" <technology@bcorporation.net>
 
 RUN apk add --update "postgresql-client" && rm -rf /var/cache/apk/*
 
-CMD ["psql"]
+ENTRYPOINT ["psql"]
